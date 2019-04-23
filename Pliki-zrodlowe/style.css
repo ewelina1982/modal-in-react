@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first-button {
+  background-color: #1e0bd0;
+  color: white;
+  padding: 20px;
+  border-radius: 2px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+dialog {
+  padding: 20px;
+  border-radius: 2px;
+  z-index: 1;
+  margin: 50px auto;
+  font-size: 30px;
+}
+.modal-drop {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(48, 49, 48, 0.42);
+  height: 100%;
+  position: fixed;
+  transition: all 1.3s;
+  width: 100%;
+}
